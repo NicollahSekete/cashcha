@@ -5,7 +5,7 @@ let forAcc = balanceAcc*1.5
 let forAccTwo = balanceAcc*2
 //let currency = prompt ("what currency do you want the money in?");
 
-let withA = ""
+let withA = "E"
 
 switch (withA) {
     case "E":
