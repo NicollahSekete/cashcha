@@ -1,29 +1,18 @@
-let attempt = 3; 
+//Change pin with validation//
 
 
-function validate()
-{
 
-let password = document.getElementById("password").value;
+const changPin=(pin)=>{
+    pin = prompt("enter your pin.") 
+    if (pin == "1235") {
+      alert("Correct pin");}
+      
+     newPin= prompt("What would you like to change it to?")
+         if(newPin=="1234"){
+         alert("Pin has succesffuly been changed.")
+        } else {
+            alert("incorrect pin form. Pin has not been changed.")}
 
-if ( password.value =4 )
-{
-alert ("Login successfully");
-return false;
-}
-
-else
-{
-attempt --;
-alert("You have left "+attempt+" attempt;");
-
-
-if( attempt == 0)
-{
-
-document.getElementById("password").disabled = true;
-document.getElementById("submit").disabled = true;
-return false;
-}
-}
-}
+        }
+     
+    changPin()

@@ -17,8 +17,3 @@ const enterPin = (pinNum) => {
     }
     enterPin()
 
-const whatToDo = (atmOptions)=>{
-    atmOptions = prompt
-
-
-}

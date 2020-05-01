@@ -22,7 +22,7 @@ const todaysTransactions = (day) => {
         alert ("Your current account had £200")
      }
    else {
-        alert ("That is not a day on this planet")
+        alert ("Please choose a day between Monday to Sunday")
     }
 }
     

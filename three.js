@@ -10,7 +10,7 @@ const makeWithdrawal = (balance, withdrawAmnt) => {
     console.log("insuffecient funds")
   }
   if(newBalance > 250){
-    console.log(`now withdrawing  ${withdrawAmnt}`)
+    console.log(`now withdrawing £ ${withdrawAmnt}`)
   }
 }
 makeWithdrawal(300, 20)
